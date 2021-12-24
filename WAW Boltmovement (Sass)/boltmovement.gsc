@@ -8,6 +8,8 @@
     - On connect, call: self.pers["poscount"] = 0;
     - On spawn, call: self.boltSpeed = 5; and setDvar("cg_nopredict", 0);
     - Works on DPAD, but I did not convert them yet, going to use native system.
+    
+    Function Set:
     - saveBoltPos saves Bolt Movement points.
     - DeleteBoltPos deletes Bolt Movement points.
     - testBM executes actual Bolt Movement function.
