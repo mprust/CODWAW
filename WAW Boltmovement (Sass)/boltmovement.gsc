@@ -6,7 +6,7 @@
     Converted Sass's Bolt Movement on MW2 to WAW. Partial credits to Antiga for conversion.
 
     - On connect, call: self.pers["poscount"] = 0;
-    - On spawn, call: self.boltSpeed = 5;
+    - On spawn, call: self.boltSpeed = 5; and setDvar("cg_nopredict", 0);
     - Works on DPAD, but I did not convert them yet, going to use native system.
     - saveBoltPos saves Bolt Movement points.
     - DeleteBoltPos deletes Bolt Movement points.
